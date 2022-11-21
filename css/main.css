@@ -13,7 +13,7 @@
    ========================================================================== */
 
 html {
-    color: palegoldenrod;
+    color: rgb(136, 197, 238);
     font-size: 1em;
     line-height: 1.4;
 }
@@ -105,7 +105,7 @@ textarea {
    ========================================================================== */
 
 html {
-    background-color: palegoldenrod;
+    background-color: rgb(136, 197, 238);
     height: 100%;
     width: 100%;
 }
@@ -114,16 +114,53 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 700;
     padding: 2em;
-    color: rgb(9, 108, 165);
+    color: orangered;
     height: 100%;
+}
+
+header {
+    background-color: rgb(136, 197, 238);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: 36px;
+    border-style: groove;
+    border-color: burlywood;
+}
+
+main {
+    background-color: rgb(136, 197, 238);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    border-style: groove;
+    border-color: burlywood;
 }
 
 .wrapper {
     /*add display:flex and set justify-content to space-between*/
     font-weight: 700;
-    flex-flow: row wrap;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
     justify-content: space-between;
+    font-size: 16px;
+}
+
+#wrapper-items {
+    color: orangered;
+    line-height: 1.5em;
+    font-size: 1.6em;
+    width: 30%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -131,9 +168,7 @@ body {
 .div-2,
 .div-3 {
     /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-    color: blueviolet;
     line-height: 1.5em;
-    font-size: 1em;
     height: auto;
     width: 30%;
     display: flex;
@@ -146,6 +181,18 @@ body {
     color: #097442;
     font-family: 'Lora', sans-serif;
     font-size: 1em;
+}
+
+footer {
+    text-decoration: none;
+    padding-top: 50px;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    /* Height of the footer */
+    text-align: center;
+    border-top: 2px groove orangered;
+    padding-block-end: 10px;
 }
 
 
